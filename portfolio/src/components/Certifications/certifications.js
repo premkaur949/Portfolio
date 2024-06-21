@@ -1,7 +1,7 @@
 import React from 'react';
-import './Extra.css';
+import './certifications.css';
 
-const Extra = () => {
+const Certifications = () => {
   const blocks = [
     {
       imgSrc: 'https://via.placeholder.com/300',
@@ -40,4 +40,4 @@ const Extra = () => {
   );
 };
 
-export default Extra;
+export default Certifications;

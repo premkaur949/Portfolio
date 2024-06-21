@@ -2,7 +2,7 @@ import Navbar from "./components/navbar/navbar";
 import Intro from  "./components/Intro/intro";
 import Skills from "./components/skills/skills";
 import Works from "./components/Works/works";
-import Extra from "./components/Extra/Extra";
+import Certifications from "./components/Certifications/certifications";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 
@@ -13,7 +13,7 @@ function App() {
       <Intro />
       <Skills />
       <Works />
-      <Extra />
+      <Certifications />
       <Contact />
       <Footer />
       
