@@ -1,5 +1,5 @@
     
-    #certi{
+    #certifications{
         overflow: hidden;
         width: 100vw;
         max-width: 60rem;
@@ -44,14 +44,14 @@
         transition: opacity 0.5s;
       }
 
-      .certiTitle{
+      .Title{
         font-size: 3rem;
         font-weight: 600;
         padding-top: 2rem;
         margin-bottom: 1.5rem;
     }
 
-    .certiDesc{
+    .Desc{
         font-weight: 400;
         font-size: 1rem;
         max-width: 51rem;

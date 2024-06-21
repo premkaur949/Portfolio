@@ -21,9 +21,9 @@ const Certifications = () => {
   ];
 
   return (
-    <section id='certi'>
-        <span className='certiTitle'>Certifications</span>
-        <span className='certiDesc'>I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail.I am proficient in HTML, CSS and JavaScript, as well as design software such as Adobe Photoshop and illustrator.</span>
+    <section id='certifications'>
+        <span className='Title'>Certifications</span>
+        <span className='Desc'>I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail.I am proficient in HTML, CSS and JavaScript, as well as design software such as Adobe Photo shop and illustrator.</span>
 
     <div className="blocks">
       {blocks.map((block, index) => (
