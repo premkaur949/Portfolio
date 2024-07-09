@@ -1,5 +1,5 @@
 .navbar{
-    background: rgb(30, 30, 30);
+    /* background: rgb(30, 30, 30); */
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -72,14 +72,14 @@
     padding: 0.5rem;
     height: fit-content;
     min-height: 15rem;
-    background: rgb(40, 40, 40);
+    /* background: rgb(40, 40, 40); */
 }
 
 .listItem{
     color: white;
     padding: 0.5rem 3rem;
     margin: 0.25rem;
-    background: rgb(30,30,30);
+    /* background: rgb(30,30,30); */
 }
 
 @media screen and (max-width:720px){
