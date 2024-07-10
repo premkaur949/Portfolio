@@ -5,6 +5,7 @@ import Works from "./components/Works/works";
 import Certifications from "./components/Certifications/certifications";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
+import Menu from "./components/Menu/menu";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Certifications />
       <Contact />
       <Footer />
+      <Menu />
       
     </div>
   );

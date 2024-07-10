@@ -8,7 +8,9 @@
 }
 
 body{
-    background-image: url(darkbg.avif);
+    background-image: url(darkbg10.jpg);
+    background-position:center;
+    background-size: cover;
     color: white;
     overflow: hidden;
     overflow-y: scroll;
