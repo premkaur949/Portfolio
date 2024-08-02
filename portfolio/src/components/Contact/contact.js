@@ -59,7 +59,7 @@ const Contact = () => {
                <a href='https://github.com/premkaur949' ><img src={GithubIcon} alt='Github' className='link' /></a>
                <a href='https://www.linkedin.com/in/prem-kaur-722279230/' ><img src={LinkedInIcon} alt='LinkedIn' className='link' /></a>
                <a href='https://www.youtube.com/channel/UCNxlaPefDMIZ381KpNV_0Vg' ><img src={YouTubeIcon} alt='Youtube' className='link' /></a>
-               <a href='' ><img src={InstagramIcon} alt='' className='link' /></a>
+               {/* <a href='' ><img src={InstagramIcon} alt='' className='link' /></a> */}
             </div>
         </form>
     </div>
