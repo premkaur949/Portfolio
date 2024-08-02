@@ -5,6 +5,8 @@ import TwitterIcon from '../../assets/twitter.png';
 import YouTubeIcon from '../../assets/youtube.png';
 import InstagramIcon from '../../assets/instagram.png';
 import emailjs from '@emailjs/browser';
+import GithubIcon from '../../assets/github.png';
+import LinkedInIcon from '../../assets/linkedin.webp';
 
 const Contact = () => {
   // const form =  useRef();
@@ -54,10 +56,10 @@ const Contact = () => {
             <textarea className='msg' name='message' rows={5} placeholder='Your Message'></textarea>
             <button type='submit' value='send' className='submitBtn'>Submit</button>
             <div className='links'>
-                <img src={FacebookIcon} alt='' className='link' />
-                <img src={TwitterIcon} alt='' className='link' />
-                <img src={YouTubeIcon} alt='' className='link' />
-                <img src={InstagramIcon} alt='' className='link' />
+               <a href='https://github.com/premkaur949' ><img src={GithubIcon} alt='Github' className='link' /></a>
+               <a href='https://www.linkedin.com/in/prem-kaur-722279230/' ><img src={LinkedInIcon} alt='LinkedIn' className='link' /></a>
+               <a href='https://www.youtube.com/channel/UCNxlaPefDMIZ381KpNV_0Vg' ><img src={YouTubeIcon} alt='Youtube' className='link' /></a>
+               <a href='' ><img src={InstagramIcon} alt='' className='link' /></a>
             </div>
         </form>
     </div>
