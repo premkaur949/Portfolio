@@ -64,6 +64,6 @@
   }
   
   .menu-options.show {
-    display: flx;
+    display: flex;
   }
   
