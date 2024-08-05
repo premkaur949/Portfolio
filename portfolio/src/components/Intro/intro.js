@@ -1,7 +1,8 @@
 import React from 'react';
 import './intro.css';
 import bg from '../../assets/image (2).png';
-import btnImg from '../../assets/hireme.png';
+import btnImg from '../../assets/doc.png';
+
 import { Link } from 'react-scroll';
 
 const Intro = () => {
@@ -11,7 +12,8 @@ const Intro = () => {
           <span className='hello'> Hello,</span>
           <span className='introText'>I'm<span className='introName'> Prem Kaur</span><br/>Website Designer</span>
           <p className='introPara'> I am a skilled web developer with experience in creating<br/> visually appealing websites</p>
-          <Link><button className='btn'><img src={btnImg} alt='' className='btnImg'/>Hire Me</button></Link>
+          <a href="https://drive.google.com/file/d/1MIelLOPO4Pm1Ve5bZP7L0f0DYLicbLk3/view?usp=sharing" target="_blank" >
+          <button className='btn'><img src={btnImg} alt='' className='btnImg'/>Resume</button></a>
         </div>
         <img src={bg} alt='Profile' className='bg' />
     </section>
