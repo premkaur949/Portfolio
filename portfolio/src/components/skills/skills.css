@@ -20,7 +20,7 @@
 .skillDesc{
     font-weight: 400;
     font-size: 1rem;
-    max-width: 51rem;
+    max-width: 80rem;
     padding: 0 2rem;
 }
 
@@ -48,9 +48,40 @@
 
 .skillBarText>p{
     font-size: 0.9rem;
-    font-weight: 200;
+    font-weight: 300;
 
 }
+
+.extraSkills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .skillBox {
+    flex: 1 1 30%;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: rgba(47, 85, 90, 0.721);
+  }
+  
+  .showMoreBtn {
+    margin: 1rem 0rem;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .skillBox>h2{
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
 
 @media screen and (max-width:720px) {
     .skillBarText>p{

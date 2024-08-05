@@ -11,8 +11,8 @@ const Works = () => {
   return (
     <section id='works'>
         <h2 className='worksTitle'>My Portfolio</h2>
-        <span className='worksDesc'>I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help business achieve  their goal and create a strong online presence.</span>
-        <div className='worksImgs'>
+        <span className='worksDesc'>I take pride in my attention to detail, ensuring that every project is an opportunity for me to pixel-perfect my work. Through working on various small projects, I have steadily built my skills and experience to where they are today. I am excited to continue growing and making a positive impact in the industry</span>
+        <br></br><div className='worksImgs'>
             <img src={Portfolio1} alt='' className='worksImg' />
             <img src={Portfolio2} alt='' className='worksImg' />
             <img src={Portfolio3} alt='' className='worksImg' />
